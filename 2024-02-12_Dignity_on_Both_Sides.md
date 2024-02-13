@@ -18,7 +18,7 @@
 
 ### Morale These Days in Media
 
-- The Bud Fight Flamboyance was similar to the Indian Cow Fat being used in bullets
+- The Bud Light Flamboyance was similar to the Indian Cow Fat being used in bullets
 - The Taiwanese leadership mentioned there being "dignity on both sides"
 -- this is an indicator of a high-context society
 - Could our low-context society realize there is dignity on both sides with the outcome of the 2024 Superbowl?
