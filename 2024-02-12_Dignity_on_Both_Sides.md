@@ -139,4 +139,4 @@ This is a dichotomy you have to be comfortable with.
 
 - Pleasantries are a middle class pheonomenon
 
-# All Deameanors Matter - even when Gramma feels your demeanor is mis
+# All Demeanors Matter - even when Gramma feels your demeanor is mis
