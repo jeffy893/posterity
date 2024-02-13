@@ -48,12 +48,12 @@
 
 ### Dignity is the Shorted Call Option
 
-- Dependent on the quantity, Dignity is the right to buy at an ideally lower price
+- Quantity in mind, Dignity is the right to buy at an ideally lower price
 - "Dirty Deeds... done dirt cheap"
 
 ### Esteem is the Shorted Put Option
 
-- Dependent on the quantity, Esteem is the right to sell at an ideally higher price
+- Quantity in mind, Esteem is the right to sell at an ideally higher price
 - Not all esteem has a strong foundation
 
 ### The Solidarity Index tends towards the impetus of responsibility between the Dignity and Esteem of the Micro-Hegemon of the Community
