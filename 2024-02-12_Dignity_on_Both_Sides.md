@@ -11,7 +11,7 @@
 - I derived the momentum of memes being transacted from the day before
 - Idle hands, Posture, and Risk Receptivity became my KPI for class
 - I understood Indemnifications from our Port Property insurance policy (https://perrydime.com/20190529_May_2019_Notes.pdf)
-- I learned about how national sucurity is a reason for retrospectively changing insurance policies... from TRIA... and how clauses trickle down into low-level policies
+- I learned about how national security is a reason for retrospectively changing insurance policies... from TRIA... and how clauses trickle down into low-level policies
 - I then understood Insurance as Governance
 - I then derived that the Owner-Manager Dichotomy can be remedied by having traceability on preventive measures taken to alleviate the need for insurers to cover EVEN that which is indemnified (https://perrydime.com/20191031_Responsibility_Futures_V8.pdf)
 - That caution should not be thrown to the wind; though, loose boxers are Gramma's recommendation
