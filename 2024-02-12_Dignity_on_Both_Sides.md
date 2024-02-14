@@ -37,7 +37,7 @@
 
 ### The Modern Noble Lie
 
-- Inquity, not labor inequity, is manifest in aesthetic appearance
+- Iniquity, not labor inequity, is manifest in aesthetic appearance
 - Beauty disrupts priorities, but objectivity lies in the socialization of taste (Critique of Judgment - Kant)
 
 ### Entering a new 3rd Space is like Shorting a Solidarity Index
