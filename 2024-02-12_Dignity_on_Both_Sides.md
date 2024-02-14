@@ -105,7 +105,7 @@ Every state has a procurement portal, and the federal one is SAM.gov. These are 
 
 ## Trends in Market
 
-https://github.com/jeffy893/cortext.io is the codebase for the https://cortext.io project which enables you to understand trends in hashtags and wikis for the textual sources which you schedule through the pipeline. Alerting, anomaly detection, and root cause analysis can be performed on the predicates (from the text) and the kpi you choose, and therefore order.
+https://github.com/jeffy893/cortext.io is the codebase for the [Cortext.io](https://cortext.io) project which enables you to understand trends in hashtags and wikis for the textual sources which you schedule through the pipeline. Alerting, anomaly detection, and root cause analysis can be performed on the predicates (from the text) and the kpi you choose, and therefore order.
 
 ## The Monty Hall Problem of Milk
 
