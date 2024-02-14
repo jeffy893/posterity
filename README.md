@@ -1,23 +1,27 @@
-<h1>Posterity</h1>
-Posterity is an Android App that simulates the Mating Dances of Bison and Cattle<br>
-<br>
-<h4>To dance with potency is to dance like Bison;</h4>
-<h4>To take the path of least resistence is to dance like Cattle.</h4>
-<br>
+# Posterity
 
-<h3>A Markov Chain incrementally "hands off" bounded constants to a Guerrilla Lanchester Law</h3><br>
+- This repo centralizes **resource allocation simulation** and **models of conflict**
+
+## Posterity is an Android App that simulates the Mating Dances of Bison and Cattle<br>
+
+- To dance with potency is to dance like Bison
+- To take the path of least resistence is to dance like Cattle
+
+### A Markov Chain incrementally "hands off" bounded constants to a Guerrilla Lanchester Law
 <h4>The attrition factors are set in a way such that Bison are distinct from Cattle - differentiated by their Mating Dance</h4><br>
-<br>
 The Heat Slider is meant to represent the relative likelihood of a dance<br>
 The Pace Slider could be thought of as the relative pace of the dance floor<br>
 <br>
 The graph that appears after the simulation takes place is based on artificial criteria for:<br>
 <h3>Should the optimum size of each side of the dance be 3, 7, or 12?</h3>
-<h4> - indicated by the Y Axis</h4>
+
+- indicated by the Y Axis
 <h3>Will Bison or Cattle win the conflict within 1.5 hours?</h3>
-<h4> - indicated by the X Axis</h4>
+
+- indicated by the X Axis
 <h3>Will there be a cross-over between Bison and Cattle?</h3>
-<h4> - ideal for those aiming to experience an event with longevity and balance</h4>
+
+- ideal for those aiming to experience an event with longevity and balance
 <br>
 
 
