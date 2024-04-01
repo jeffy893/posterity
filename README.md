@@ -53,6 +53,10 @@ The graph that appears after the simulation takes place is based on artificial c
 
 # Context
 
+## AI summary of Dean Barry's conclusion in: Insurance as Governance
+
+### I am not smart enough to write the following, but am to recognize it... it'll take years for me to understand, if ever - JFR
+
 In modern societies, insurance plays a crucial role in governance due to the emphasis on minimal state intervention and reliance on local risk knowledge. The state, with its territorial, national, and sovereign dimensions, has undergone a process of minimalization, collaborating with private sector institutions. Private corporations exert influence by expanding territorial jurisdiction, managing populations based on consumption preferences, and implementing risk management regimes. The state becomes 'governmentalized' as it partners with these private institutions, shaping and being shaped by them. In this context, individual choice is a tool for governing populations, framed within the discourse of corporate and consumer rights but accompanied by responsibilities in liberal risk regimes. Those deemed irresponsible may face exclusion from participation in the concerned institution.
 
 Liberal risk regimes, based on six key assumptions, advocate for a minimal state, relying on individuals' self-restraint, willingness to share, and self-governance. The emphasis is on a 'free market' providing security and prosperity through market relations, with a focus on knowledge for risk taking and management. In this regime, individuals are expected to be informed, self-sufficient consumers responsible for their own political economy. Inequality is framed as a matter of choice within a liberal risk regime, and the state itself is considered a risk requiring perpetual reform.
