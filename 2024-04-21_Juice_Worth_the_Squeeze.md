@@ -2,7 +2,7 @@
 
 ## Approach
 
-This is a myriad of ideas which have accrued over the years. It takes time to see if the juice is worth the squeeze; so, I am framing these as 'proofs as concept' - as I usually do with my art.
+This is a myriad of ideas which have accrued over the years. It takes time to see if the juice is worth the squeeze; so, I am framing these as 'names of concept' with the aim to turn them into 'proofs of concept' - as I usually do with art.
 
 
 ## Formation
