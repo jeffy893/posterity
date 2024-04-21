@@ -11,7 +11,7 @@ This is a myriad of ideas which have accrued over the years. It takes time to se
 |----------|----------|----------|----------|
 | ~2013   | Survitality   | Survival and Vitality of the synapse (flow of resources)   | [Link to Writing](https://perrydime.com/survivtality.html)   |
 | 2017  | Courageous Fidelian   | Fidelity pities Patience as Courage pities Confidence | - Allegiance to Process<br>- Rifle vs. Shotgun   |
-| ~2019  | Clean Streets Model   | Decay is swept away by social services | - ethics bottlenecked thru phones<br>- workout moral muscle   |
+| ~2019  | Clean Streets Model   | Decay is swept away by social services | - ethics bottlenecked thru phones<br>- workout moral muscle<br>- celestial clockwork<br>- reservoirs to sip from<br>- vessels on the emotional toolbelt   |
 | ~2023-08-30  | - Call Me<br>- Don't care what you call me, long as you call me for dinner   | What do you need to feel like you belong? | - Natural Stop at 'Call for Din'<br>- [Bottom of Poetry](https://perrydime.com/poetry.html)  |
 | ~2023  | Born > 1993 Surveillance State   | Advantageous to adapt to surveillance state | - religious epigene<br>- paranoia   |
 | ~2024-01-01  | Pivot Bruh   | Social Media spun off to Apache | - Cambridge Analytica<br>- someone else represents you deomogrpahically in this dark data set<br>- pivot to 2015 NASA Rejuvenation Goals   |
