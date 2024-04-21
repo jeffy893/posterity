@@ -1,4 +1,4 @@
-# Give the Thought a Name
+# Juice Worth the Squeeze?
 
 ## Approach
 
