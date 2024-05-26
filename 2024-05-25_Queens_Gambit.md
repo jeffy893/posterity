@@ -97,6 +97,7 @@ So What?
 Well... this is called a [Cloud Share](https://jefferson.cloud) and is a methodology for something on the quivalence of a Personal Brand.
 
 Where this is headed?
+
 8. Maintaining a state of pursuit and curiosity
 9. Expressing oneself within limitations to find freedom
 10. Choosing with whom I am in debt
