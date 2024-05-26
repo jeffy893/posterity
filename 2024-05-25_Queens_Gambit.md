@@ -94,7 +94,7 @@ Extending Kant's Critique on Judgment:
 I am limited in my understanding of anthropolgy, and am coming to grips with: "white man paperwork" being very difficult because of the low-context communications. "Dignity on both sides" is a possible phen in a High-Context society. Ingenuity (e.g. carrier pigeons being able to carry an ounce) will always exist; even, if "laundering correlated predicate offences" are bottlenecked through the layers of the internet.
 
 So What?
-Well... this is called a [Cloud Share](https://jefferson.cloud) and is a methodology for something on the quivalence of a Personal Brand.
+Well... this is called a [Cloud Share](https://jefferson.cloud) and is a methodology for something on the equivalence of a Personal Brand.
 
 Where this is headed?
 
