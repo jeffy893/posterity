@@ -1,4 +1,4 @@
-# Queen's Gambit
+# Queen's Gambit of Go
 
 
 ## Assumption
@@ -72,3 +72,35 @@ Ought the assumption be propagated in a capitalistic society, if the objective i
     * Glorify ~"Jah Moon shining through, into our lives again... get this message to you girl... on time"
         * Colonize Cislunar Region
         * Paradoxes are not revealed on our individual time, but within the celestial clockwork's time
+
+
+## Execution
+
+### Let's talk constitutions and burial grounds for the devestated economies we leave behind in our Pacific Go Battles - for Helen of (D)TRoy
+
+Extending Kant's Critique on Judgment:
+1. Experience Beauty
+2. Priorities Disrupted
+3. Socialize quantity and quality of disruption
+4. [La Distinción](https://en.wikipedia.org/wiki/Distinction_(book)) de [Acción Humano](https://en.wikipedia.org/wiki/Human_Action)
+    * Socialize Taste
+    * Horizontal and Vertical "Conservative Forces" of a multiplicity of bloom's taxonomies
+5. [Responsibility Index](https://github.com/jeffy893/gurila.tools/blob/main/2021-03-12_Intention_Div_Negligence.pdf)
+6. [Solidarity Hedge](https://github.com/jeffy893/gurila.tools/blob/main/2024-04-27_Clusteral_Solidarity_Hedge.pdf)
+7. [Extended Posterity App](https://github.com/jeffy893/gurila.tools/tree/main/Posterity_Android_App)
+    * [Morale Model](https://github.com/jeffy893/gurila.tools/blob/main/2024-02-03_Morale_Model_of_War_and_Love.pdf) Integrated into the Scope Random Variable of the [Lanchester Model](https://github.com/jeffy893/gurila.tools/blob/main/2020-06-16_Celestial_Clockwork.pdf)
+    * Key rule of thumb: scope is normally distributed, social is skewed left, and material is skewed right
+
+I am limited in my understanding of anthropolgy, and am coming to grips with: "white man paperwork" being very difficult because of the low-context communications. "Dignity on both sides" is a possible phen in a High-Context society. Ingenuity (e.g. carrier pigeons being able to carry an ounce) will always exist; even, if "laundering correlated predicate offences" are bottlenecked through the layers of the internet.
+
+So What?
+Well... this is called a [Cloud Share](https://jefferson.cloud) and is a methodology for something on the quivalence of a Personal Brand.
+
+Where this is headed?
+8. Maintaining a state of pursuit and curiosity
+9. Expressing oneself within limitations to find freedom
+10. Choosing with whom I am in debt
+
+Thank you for your time...
+
+# I'm so glad you met me!
