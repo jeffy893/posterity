@@ -37,7 +37,7 @@ Ought the assumption be propagated in a capitalistic society, if the objective i
 - Propose Alternative Matrix for psychological states of being
     * Anima <--> Animus
     * Survitalism <--> Narcisism <--> Schizophrenia
-        * Ratopia
+        * [Ratopia](https://en.wikipedia.org/wiki/Behavioral_sink)
     * Dependent <--> Interdependent
     * Depression <--> Anxiety
     * Consequential <--> Deontological
