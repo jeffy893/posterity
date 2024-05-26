@@ -17,7 +17,7 @@
 
 ### The fault of human truth (FHT) is where one believes it is GOOD for THAT to be TRUE for THEM but not THEM OVER THERE.
 
-### The developmental stage of a child in a houselhold, a household in a neighborhood, a neighborhood in a community, ad infinitum: contributes to how much involvement the entity has with decision-making for the resource allocation and management with tools/machines within the subsystem (bound by Conway's Law).
+### The developmental stage of a child in a household, a household in a neighborhood, a neighborhood in a community, ad infinitum: contributes to how much involvement the entity has with decision-making for the resource allocation and management with tools/machines within the subsystem (bound by Conway's Law).
 
 ## End in Mind
 
@@ -45,7 +45,7 @@ Ought the assumption be propagated in a capitalistic society, if the objective i
 - Free Play <--> Instrumental Play <--> Deliberation
 - Transparency as to the developmental stage of the supra entity in the subsystem makes a difference in development?
 - Horizontal force to clarify, attribute, and model each layer of bloom's taxonomy...
-    - Overlapping Ikigai... The Lord's keychain...
+    - Overlapping Ikigai... Jah keychain...
     - Vertical force to elevate or demote within bloom's taxonomy
 - Liberal Risk Regime distribution of negligence with the belief in agency
     * Diligence stands by itself, negligence locks in-step with others
@@ -64,8 +64,11 @@ Ought the assumption be propagated in a capitalistic society, if the objective i
 - Accounting for the assumption based on this formation
 - Again... you're saying I got a chance!
 - So What?
-    * Cognizance of Great Anxiety and Great Gaslighting is helpful so as to weight the value of narratives introudcing priorities in front of those common to all (Kant's Critique on Judgment...)
-        * Modern Noble Lie: Inqiuity manifests in facial features
+    * Cognizance of Great Anxiety and Great Gaslighting is helpful so as to weight the value of narratives introducing priorities in front of those common to all (Kant's Critique on Judgment...)
+        * Modern Noble Lie: Inqiuity manifests in facial features but not the hands... labor
         * Address Marvel Propaganda of Thenos Mission
+        * Will Austrian Economics arise from the Great Anxiety?
     * Maintain alignment with natural law - to be involved with broader scopes - earned by proper development
-    * Glorify Jah
+    * Glorify ~"Jah Moon shining through, into our lives again... get this message to you girl... on time"
+        * Colonize Cislunar Region
+        * Paradoxes are not revealed on our individual time, but within the celestial clockwork's time
