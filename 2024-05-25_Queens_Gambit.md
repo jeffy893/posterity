@@ -175,9 +175,9 @@ please leave a message, after the tone:\
 beow beow beow beow:\
 "standard greenwhich time"\
 how can the stems be so clean,\
-while the roots are so dirty?\
+while the roots are so dirty?
 
 one woman's fruit\
-is another woman's root\
+is another woman's root
 
 ## This is my Queen's Gambit
