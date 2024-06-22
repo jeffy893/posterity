@@ -107,76 +107,77 @@ Thank you for your time...
 # I'm so glad you met me!
 
 
+
 ## This is my Queen's Gambit
 
-Crawling in median
-toes ripped off
-must not share
-"social, scope, material capital
-with Matsu":
-The Language of Happiness.
-Crawl to the side
-with a short path
-to the hospital
-Saved
-Rock and Roll, Hootchie Coo
-She thinks she's the passionate one
-Then, Dad coordination tactic on 3sens
-Does it make cents, sense, and scents?
-then, Posterity App:
-Lanchester Law
-then Morale
-then the handoff to Matsu
-His agent-based morale model
-with 3sens boundaries...
-then, advisor, accountant, and lawyer
-for whole family.
-then dream analysis
-then stars aligned...
-heart flutter by value
-minimize delta of procedure and practice
-minimize touches behind bar.
-Authentic Relate
-Broicism
-Blood reaches out
-Austrian Economics
-to simply value a glass of water.
-then, start a team to Market
-and metabolize the vicious narratives
-introducing priorities in front of OUR own...
-then ask: "How do I fill the space?"
-and result
-in NetLogo:
-100 Agent-Based Models
-Open-Source
-Available on all platforms...
-Nonchalant and Anticlimactic
-Survival with Vitality
-and reverse-engineer
-to the negligent state
-that led to damages?
-polymorphism on the 5th normal form with ORM.
-socialize, decode, consult
-social, adaptable, skilled
-sensitive, aritistic, heroic.
-in order to make a good a god,
-they have to drop a halo:
-feather takes a nose dive,
-straight to the pavement,
-halo shatters on high,
-mortal as a layman.
-and you must leave yours kneeling at the door of your home.
-make amends
-trust AND verify
-build up... drop:
-are you in good hands?
-please leave a message, after the tone:
-beow beow beow beow:
-"standard greenwhich time"
-how can the stems be so clean,
-while the roots are so dirty?
+Crawling in median\
+toes ripped off\
+must not share\
+"social, scope, material capital\
+with Matsu":\
+The Language of Happiness.\
+Crawl to the side\
+with a short path\
+to the hospital\
+Saved\
+Rock and Roll, Hootchie Coo\
+She thinks she's the passionate one\
+Then, Dad coordination tactic on 3sens\
+Does it make cents, sense, and scents?\
+then, Posterity App:\
+Lanchester Law\
+then Morale\
+then the handoff to Matsu\
+His agent-based morale model\
+with 3sens boundaries...\
+then, advisor, accountant, and lawyer\
+for whole family.\
+then dream analysis\
+then stars aligned...\
+heart flutter by value\
+minimize delta of procedure and practice\
+minimize touches behind bar.\
+Authentic Relate\
+Broicism\
+Blood reaches out\
+Austrian Economics\
+to simply value a glass of water.\
+then, start a team to Market\
+and metabolize the vicious narratives\
+introducing priorities in front of OUR own...\
+then ask: "How do I fill the space?"\
+and result\
+in NetLogo:\
+100 Agent-Based Models\
+Open-Source\
+Available on all platforms...\
+Nonchalant and Anticlimactic\
+[Survival with Vitality](https://perrydime.com/survivtality.html)\
+and reverse-engineer\
+to the negligent state\
+that led to damages?\
+polymorphism on the 5th normal form with ORM.\
+socialize, decode, consult\
+social, adaptable, skilled\
+sensitive, aritistic, heroic.\
+in order to make a good a god,\
+they have to drop a halo:\
+feather takes a nose dive,\
+straight to the pavement,\
+halo shatters on high,\
+mortal as a layman.\
+and you must leave yours kneeling at the door of your home.\
+make amends\
+trust AND verify\
+build up... drop:\
+are you in good hands?\
+please leave a message, after the tone:\
+beow beow beow beow:\
+"standard greenwhich time"\
+how can the stems be so clean,\
+while the roots are so dirty?\
 
-one woman's fruit
-is another woman's root
+one woman's fruit\
+is another woman's root\
 
 ## This is my Queen's Gambit
