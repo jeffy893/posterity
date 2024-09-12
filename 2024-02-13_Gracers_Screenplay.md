@@ -55,7 +55,7 @@ Act 4:
 
 **Raphael:** (after his perfect dive) "For true grace."
 
-- After the last character, Raphael, performs his dive with unparalleled grace and emerges from the water unharmed, he is bewildered by his survival and the death of everyone in the stadium.
+- After the last character, Raphael, performs his dive with unparalleled grace and emerges from the water unharmed, he is bewildered by his survival and the death of everyone else in the stadium.
 
 **Raphael:** (looking around) "I thought I'd meet them on the other side. What have we been chasing?"
 
