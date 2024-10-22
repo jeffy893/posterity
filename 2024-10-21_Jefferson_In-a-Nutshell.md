@@ -16,7 +16,7 @@
     - Great-Grandfather Hursley wrote soap-opera General Hospital
     - Grandfather Richards worked with Cesar Chavez as Lawyer
         * Yuma District Attorney
-        * First carpal tunnel case for migrant worker in Yuma
+        * First carpal tunnel case for migrant worker as personal injury lawyer in Yuma
 
 * Adolescence and Early Adulthood:
   * Parents' divorce impacting his perception of relationships and family dynamics.
@@ -25,8 +25,8 @@
   * In 11th grade: internship with a neurosurgeon in Boston, gaining humility and a deeper appreciation for life.
   
 * UC Davis & Kentucky
-    * Went to UC Davis for Sustainable Agriculture.
-    * Visited Kentucky and spent time on his family's farm with his cousin James.
+    * Went to UC Davis for Sustainable Agriculture and Statistics.
+    * Visited Kentucky and worked on his family's tobacco farm with his cousin James.
     * Learned about subsistence living, and experienced the challenges and rewards of rural life.
     * Faced fears and anxieties, but also found peace and inspiration in the countryside.
     * Wrote & Received love letters and contemplated his future while in Kentucky.
@@ -39,7 +39,7 @@
     * On his own time, he developed an NLP algorithm, aiming to extract the DNA sequence of poetry and constitutions, which he had dreamt about.
     * Spoke with Neel about advancements in NLP and worked on the beginnings of Cortext.io.
     * Started a "paper boy" service, collecting 50 emails in 3 days, and built robots to scrape news from AP, Reuters, and ESPN.
-    * Returned to school at San Diego Mesa College, got an Associate's in Mathematics, and then applied and got into the University of Arizona.
+    * Returned to school at San Diego Mesa College, got an Associate's in Mathematics, and then went to the University of Arizona.
 
 * Career and Entrepreneurial Ventures:
   * Developing a passion for programming and data science, leading to entrepreneurial projects.
@@ -56,5 +56,6 @@
   * Financial planning and building an estate, prioritizing relationships and long-term goals.
   * Meeting his niece, Juliet, inspiring him to focus on his health and personal well-being.
 
-* Learned to appreciate wisdom by spending a summer shadowing his Grandfather Richards
+* Learned to appreciate legal wisdom by spending a summer shadowing his Grandfather Richards
 * Learned to appreciate peace by spending a year supporting his Grandmother Hursley
+* Learned to appreciate grace from national holidays with Gramma Richards
