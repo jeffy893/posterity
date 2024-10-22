@@ -28,7 +28,7 @@
     * Visited Kentucky and spent time on his family's farm with his cousin James.
     * Learned about subsistence living, and experienced the challenges and rewards of rural life.
     * Faced fears and anxieties, but also found peace and inspiration in the countryside.
-    * Wrote love letters and contemplated his future while in Kentucky.
+    * Wrote & Received love letters and contemplated his future while in Kentucky.
 
 * Apprenticing with Father in PLM & Writing AI
     * Apprenticed with his father after a hiking trip with Neel, during which Neel recommended he learn from his father's 35 years of experience in object-oriented technology, systems integration, and software architecture.
