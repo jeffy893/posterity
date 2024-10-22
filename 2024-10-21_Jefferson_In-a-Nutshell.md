@@ -8,8 +8,9 @@
     - tubing
     - wakeboarding
   * Exploring nature in Carl's Woods, developing a love for animals and the outdoors.
-    - Catching turtles
+    - catching turtles
     - fishing
+    - airsoft
   * Close friendship with cousin Sean Wilson, experiencing camaraderie and learning about different spiritual systems.
   * Family holidays with both the Hursleys and the Richards, shaping his values and beliefs.
     - Great-Grandfather Hursley wrote soap-opera General Hospital
