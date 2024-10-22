@@ -4,9 +4,13 @@
 
 
 * Early Life and Childhood:
-  * Growing up in a boating lifestyle on Bronco Rd, fostering a sense of adventure and responsibility.
+  * Growing up in a boating lifestyle on Bronco Rd in a suburb outside of Detroit, MI, fostering a sense of adventure and responsibility.
+    - tubing
+    - wakeboarding
   * Exploring nature in Carl's Woods, developing a love for animals and the outdoors.
-  * Close friendship with cousin Sean Wilson, experiencing camaraderie and learning about different religious systems.
+    - Catching turtles
+    - fishing
+  * Close friendship with cousin Sean Wilson, experiencing camaraderie and learning about different spiritual systems.
   * Family holidays with both the Hursleys and the Richards, shaping his values and beliefs.
     - Great-Grandfather Hursley wrote soap-opera General Hospital
     - Grandfather Richards worked with Cesar Chavez as Lawyer
@@ -26,10 +30,10 @@
     * Faced fears and anxieties, but also found peace and inspiration in the countryside.
     * Wrote love letters and contemplated his future while in Kentucky.
 
-* Aprenticing with Father in PLM & Writing AI
+* Apprenticing with Father in PLM & Writing AI
     * Apprenticed with his father after a hiking trip with Neel, during which Neel recommended he learn from his father's 35 years of experience in object-oriented technology, systems integration, and software architecture.
         - His Father worked in AI 30 years ago at EDS in Detroit (followed Ross Perot)
-        - His Father had a career from EDS automotive, to DoD, to NASA...
+        - His Father had a career from: EDS automotive, to DoD, to NASA...
     * Worked alongside his father, observing his consulting work and learning about PLM.
     * On his own time, he developed an NLP algorithm, aiming to extract the DNA sequence of poetry and constitutions, which he had dreamt about.
     * Spoke with Neel about advancements in NLP and worked on the beginnings of Cortext.io.
