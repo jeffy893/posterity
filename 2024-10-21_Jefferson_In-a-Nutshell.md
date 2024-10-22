@@ -4,6 +4,7 @@
 
 
 * Early Life and Childhood:
+  * Born on a Blue Moon on August 30th
   * Growing up in a boating lifestyle on Bronco Rd in a suburb outside of Detroit, MI, fostering a sense of adventure and responsibility.
     - tubing
     - wakeboarding
@@ -59,3 +60,4 @@
 * Learned to appreciate legal wisdom by spending a summer shadowing his Grandfather Richards
 * Learned to appreciate peace by spending a year supporting his Grandmother Hursley
 * Learned to appreciate grace from national holidays with Gramma Richards
+* Another Blue Moon on the 30th of August, 30 years from his birth
