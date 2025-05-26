@@ -29,7 +29,7 @@ John Locke saw Church as dealing with long-term happiness, State as dealing with
 - ought there be transparency about developmental-stage? (e.g. Piaget)
     * as to why dependents are not included in decision-making?
 - ought `insurance as governance` incorporate utilities bills?
-    * proof of pride of ownership?
+    * as well as proof of pride of ownership?
 - ought 23andme integrate APIs with ancestry and tinder?
     * and AR glasses? (e.g. green, yellow, red)
 - ought there be [commandments of AI](https://integralmass.atlassian.net/wiki/spaces/RS/pages/91389954/9+Commandments+of+AI)?
