@@ -13,3 +13,23 @@ Will there be an ask for our assemblies to be representative of expected demogra
 So what?
 
 Well, militaries impose their will, farmers nurture society, and artisans tinker to progress technology. Deliberations within these classes ought not be inhibited with the requirements of representative demographics: and, also SOPs based on **legitimizing the institutions** of brand-managed `NIL light pollution` and `NIL sound pollution`. It's as if the faint stars are drownt out by city lights, and we cannot possibly connect what stars remain into the same constellations... It's as if steam whistles are blowing at decibels as loud as jet planes breaking the sound barrier... this `NIL light pollution` inhibits the `freedom of religion` - which comes first... this `NIL sound pollution` inhibits the `freedom of speech` - which comes next, and prior to the `freedom of assembly`, and all three are within the first ammendment of the US constitution.
+
+## The Solution
+
+**Separation of Church, State, and Entertainment**
+
+John Locke saw Church as dealing with long-term happiness, State as dealing with short-term happiness (in Two Treatise of Government); and, we are now understanding that entertainment deals with instantaneous happiness... I leave this to you to figure out:
+
+- ought there be representatives from each?
+    * archetypal relationships? (e.g. popes, first ladies, elton john)
+- ought there be a `C-SPAN criteria` for state publications?
+    * so as to not overflow our `Dunbar Bowls`?
+- ought the hero's journey be preserved in video games?
+    * ought superhero movies propagate `Thanos decisions`?
+- ought there be transparency about developmental-stage? (e.g. Piaget)
+    * as to why dependents are not included in decision-making?
+- ought `insurance as governance` incorporate utilities bills?
+    * proof of pride of ownership?
+- ought 23andme integrate APIs with ancestry and tinder?
+    * and AR glasses? (e.g. green, yellow, red)
+- ought there be [commandments of AI](https://integralmass.atlassian.net/wiki/spaces/RS/pages/91389954/9+Commandments+of+AI)?
