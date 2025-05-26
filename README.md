@@ -21,15 +21,15 @@ Well, militaries impose their will, farmers nurture society, and artisans tinker
 John Locke saw Church as dealing with long-term happiness, State as dealing with short-term happiness (in Two Treatise of Government); and, we are now understanding that entertainment deals with instantaneous happiness... I leave this to you to figure out:
 
 - ought there be representatives from each?
-    * archetypal relationships? (e.g. popes, first ladies, elton john)
+    * archetypal relationships? (i.e. popes, first ladies, elton john)
 - ought there be a `C-SPAN criteria` for state publications?
     * so as to not overflow our `Dunbar Bowls`?
 - ought the hero's journey be preserved in video games?
     * ought superhero movies propagate `Thanos decisions`?
-- ought there be transparency about developmental-stage? (e.g. Piaget)
+- ought there be transparency about developmental-stage? (i.e. Piaget)
     * as to why dependents are not included in decision-making?
 - ought `insurance as governance` incorporate utilities bills?
     * as well as proof of pride of ownership?
 - ought 23andme integrate APIs with ancestry and tinder?
-    * and AR glasses? (e.g. green, yellow, red)
+    * and AR glasses? (i.e. green, yellow, red at facial recognition)
 - ought there be [commandments of AI](https://integralmass.atlassian.net/wiki/spaces/RS/pages/91389954/9+Commandments+of+AI)?
