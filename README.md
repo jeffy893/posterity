@@ -1,3 +1,12 @@
+### 2025-09-21
+
+AI-driven content saturation makes it impossible for human creators to be seen, massively devaluing their work. The future of AI isn't just generating more noise, but helping us find the signal of what truly matters.
+
+[Dunbar Calculus of Value](./2025-09-21_Dunbar_Calculus-of-Value.pdf)
+
+
+
+
 ### 2025-05-25
 
 # Writings for Posterity
