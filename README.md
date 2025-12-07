@@ -41,4 +41,4 @@ John Locke saw Church as dealing with long-term happiness, State as dealing with
     * as well as proof of pride of ownership?
 - ought 23andme integrate APIs with ancestry and tinder?
     * and AR glasses? (i.e. green, yellow, red at facial recognition)
-- ought there be [commandments of AI](https://integralmass.atlassian.net/wiki/spaces/RS/pages/91389954/9+Commandments+of+AI)?
+- ought there be [constraints of AI](https://integralmass.atlassian.net/wiki/spaces/RS/pages/91389954/9+Constraints+of+AI)?
