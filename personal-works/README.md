@@ -17,7 +17,6 @@ Personal reflections, and biographical materials documenting individual journey 
 ## Personal Themes
 
 These works explore:
-- **Family heritage** and the importance of genealogical connection
 - **Personal identity** and the intersection of individual and cultural influences
 - **Professional calling** and the alignment of work with personal values
 - **Cultural perspective** and the influence of background on worldview

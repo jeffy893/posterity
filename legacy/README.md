@@ -27,6 +27,7 @@ Creative exploration of narrative structures and romantic comedy conventions:
 ## Purpose
 
 These legacy works demonstrate:
+- **Family heritage** and the importance of genealogical connection
 - **Creative experimentation** with different media and formats
 - **Holistic thinking** about health, wellness, and lifestyle
 - **Interdisciplinary interests** spanning creative arts, health science, and social dynamics

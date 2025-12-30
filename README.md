@@ -13,10 +13,10 @@ Creative works including poetry, dream analysis, and correspondence exploring th
 Theoretical frameworks addressing social capacity (Dunbar Theory), constitutional principles, behavioral economics, and conflict resolution.
 
 ### 👤 [Personal Works](./personal-works/)
-Biographical materials, family heritage documentation, and personal reflections on identity and calling.
+Biographical materials and personal reflections on identity and calling.
 
 ### 🗂️ [Legacy](./legacy/)
-Experimental projects, health and wellness content, and creative explorations demonstrating breadth of interests.
+Experimental projects, family heritage documentation, health and wellness content, and creative explorations demonstrating breadth of interests.
 
 ## Core Themes
 
