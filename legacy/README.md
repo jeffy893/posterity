@@ -1,8 +1,16 @@
 # Legacy Projects & Miscellaneous Works
 
-Experimental projects, health and wellness content, and creative explorations that demonstrate breadth of interests and capabilities.
+Experimental projects, personal history, health and wellness content, and creative explorations that demonstrate breadth of interests and capabilities.
 
 ## Creative Projects
+
+## Family Heritage
+
+### 003_Family-Tree/
+Comprehensive genealogical research and family documentation:
+- **Jefferson-Richards Ahnentafel Family Tree** - Systematic ancestral documentation
+- **Family Map** - Geographic visualization of family origins and migrations  
+- **Family Tree Fan** - Visual representation of generational connections
 
 ### end-of-rom-com/
 Creative exploration of narrative structures and romantic comedy conventions:

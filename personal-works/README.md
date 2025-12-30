@@ -1,14 +1,6 @@
 # Personal Works & Biographical Materials
 
-Personal reflections, family history, and biographical materials documenting individual journey and heritage.
-
-## Family Heritage
-
-### 003_Family-Tree/
-Comprehensive genealogical research and family documentation:
-- **Jefferson-Richards Ahnentafel Family Tree** - Systematic ancestral documentation
-- **Family Map** - Geographic visualization of family origins and migrations  
-- **Family Tree Fan** - Visual representation of generational connections
+Personal reflections, and biographical materials documenting individual journey and heritage.
 
 ## Personal Reflections
 
