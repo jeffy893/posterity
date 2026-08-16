@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gradient of Separation: On Appreciation, Faith, and the Conservative Force Toward the Soul</title>
+    <style>
+        :root {
+            --bg: #faf9f6;
+            --text: #2c2c2c;
+            --accent: #4a6741;
+            --accent-light: #e8f0e5;
+            --border: #d4c9b0;
+            --muted: #6b6b6b;
+            --highlight: #f5f0e8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 1rem 2rem;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 3rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.5rem;
+            color: var(--accent);
+        }
+
+        header .subtitle {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: var(--muted);
+            margin-bottom: 1.5rem;
+        }
+
+        header .meta {
+            font-size: 0.9rem;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+
+        header .meta span {
+            display: block;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: var(--accent);
+            margin: 2.5rem 0 1rem;
+            padding-bottom: 0.3rem;
+            border-bottom: 1px solid var(--accent-light);
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text);
+            margin: 1.8rem 0 0.8rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            background-color: var(--highlight);
+            font-style: italic;
+            border-radius: 0 4px 4px 0;
+        }
+
+        blockquote cite {
+            display: block;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--muted);
+            font-style: normal;
+        }
+
+        .diagram {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+            line-height: 2;
+            overflow-x: auto;
+        }
+
+        .diagram .label {
+            font-family: Georgia, serif;
+            font-size: 0.85rem;
+            color: var(--muted);
+            font-style: italic;
+            margin-top: 1rem;
+        }
+
+        ul, ol {
+            margin: 1rem 0 1.5rem 2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .callout {
+            background-color: var(--accent-light);
+            border: 1px solid var(--accent);
+            border-radius: 6px;
+            padding: 1.2rem 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .callout p {
+            margin-bottom: 0;
+        }
+
+        .references {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--border);
+        }
+
+        .references h2 {
+            border-bottom: none;
+        }
+
+        .references ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .references li {
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .references li::before {
+            content: "\2022";
+            color: var(--accent);
+            position: absolute;
+            left: 0;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--accent);
+        }
+
+        a:hover {
+            border-bottom-style: solid;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            body {
+                padding: 1rem 0.5rem;
+            }
+        }
+
+        /* Print / PDF styles for WeasyPrint */
+        @page {
+            size: letter;
+            margin: 2.5cm 2cm;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+                font-size: 10.5pt;
+                line-height: 1.7;
+            }
+
+            .container {
+                max-width: 100%;
+            }
+
+            header {
+                padding-top: 1rem;
+            }
+
+            h2 {
+                page-break-after: avoid;
+            }
+
+            h3 {
+                page-break-after: avoid;
+            }
+
+            section {
+                page-break-inside: auto;
+            }
+
+            blockquote, .callout, .diagram {
+                page-break-inside: avoid;
+            }
+
+            .diagram pre {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                font-size: 8.5pt;
+                line-height: 1.6;
+            }
+
+            pre {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+            }
+
+            a {
+                color: var(--accent);
+                border-bottom: none;
+                text-decoration: underline;
+            }
+
+            footer {
+                page-break-before: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The Gradient of Separation</h1>
+            <p class="subtitle">On Appreciation, Faith, and the Conservative Force Toward the Soul</p>
+            <div class="meta">
+                <span><strong>Author:</strong> Jefferson Richards</span>
+                <span><strong>For:</strong> Chris Smith</span>
+                <span><strong>Date:</strong> July 26, 2026</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>I. The Premise: Separation from Nature</h2>
+
+            <p>
+                Zach Bush, in his recent appearance on the Joe Rogan Experience, articulates a compelling framework:
+                that the existential dread permeating modern society stems from our separation from nature. He posits
+                that human beings were once capable of functioning as biological antennas&mdash;communicating through
+                something akin to telepathy, performing acts of extraordinary will (the Moses archetype parting the sea).
+                That potential, he argues, has been systematically eroded by the industrial food system and our divorce
+                from the soil.
+            </p>
+
+            <p>
+                His illustrative example: an Amazonian tribe that lived for 40,000 years without money, whose impoverishment
+                began not with colonization in the traditional sense, but with the introduction of high fructose corn syrup.
+                The first taste of that synthetic sweetness catalyzed a need&mdash;a felt separation&mdash;that could not
+                be undone.
+            </p>
+
+            <blockquote>
+                Once you break the connection, once the separation has occurred, you internalize the need for money.
+                And for all intents and purposes, you cannot return&mdash;other than by an act of God, across many people,
+                at a societal level.
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>II. The Two-Body Model: Soul and Mind</h2>
+
+            <p>
+                Let us construct a thought experiment. Consider the self as a body in the ether&mdash;a single orb.
+                Call it the <em>soul</em>. Now, the moment separation from nature occurs, a second body is dislodged
+                from the first. Call this second body the <em>mind</em>.
+            </p>
+
+            <p>
+                Once separated, the mind can no longer rest directly upon the ground of the soul. A gap exists.
+                And within that gap lives a question&mdash;the fundamental question of the separated being:
+            </p>
+
+            <blockquote>
+                Why can't I catch a break?
+            </blockquote>
+
+            <p>
+                This question is not trivial. It is the root driver of fight, flight, or freeze responses. It is what
+                propels young people toward influencer culture, toward sensationalism, toward the hope that someone&mdash;a
+                patron&mdash;will recognize their stewardship of the little they have and entrust them with more.
+            </p>
+
+            <div class="diagram">
+                <pre>
+    [SOUL]  &lt;--- conservative force (like gravity) ---  [MIND]
+       |                                                    |
+       |              existential gap                       |
+       |         "Why can't I catch a break?"              |
+       |                                                    |
+    grounded                                          separated
+    at rest                                           in motion
+                </pre>
+                <p class="label">Figure 1. The conservative force drawing the mind back toward the soul.</p>
+            </div>
+
+            <p>
+                There exists a conservative force&mdash;like gravity&mdash;that draws the mind back toward the soul.
+                But this force, if unmediated, manifests as dread. The return is too fast, too violent. It results
+                in collapse: freeze or flight.
+            </p>
+        </section>
+
+        <section>
+            <h2>III. The Gradient: Approach and Resistance</h2>
+
+            <p>
+                Chris, you introduced this framework: that there is a <em>gradient of resistance</em> and a
+                <em>gradient of approach</em> when encountering new experiences. Your focus is on reducing the
+                gradient of approach&mdash;not to cease approaching, but to lessen the steepness of the engagement.
+            </p>
+
+            <p>
+                In tactical terms: <strong>Approach &rarr; Formation &rarr; Execution</strong>.
+            </p>
+
+            <p>
+                The question becomes: what reduces these gradients such that the conservative force back to the
+                soul does not overwhelm the system?
+            </p>
+        </section>
+
+        <section>
+            <h2>IV. The See-Desire-Take Markov Chain</h2>
+
+            <p>
+                Consider a Markov chain of states: <strong>See &rarr; Desire &rarr; Take</strong>. If we know the
+                current state, we can estimate the probability of transition to the next state. Modern society is
+                engineered to maximize these transition probabilities:
+            </p>
+
+            <ul>
+                <li>Nightlife rituals designed around visual stimulation</li>
+                <li>Leisure signaling (physique, tan) as the new fast fashion&mdash;per Bourdieu's <em>Distinction</em></li>
+                <li>Social media as taste expression, per Kant's <em>Critique of Judgment</em>&mdash;where beauty disrupts priorities</li>
+            </ul>
+
+            <blockquote>
+                "I would walk 500 miles, I would walk 500 more"&mdash;The Proclaimers are quantifying how much
+                her beauty disrupted his priorities. That is a quantifiable expression of beauty.
+                <cite>&mdash; Artistic reference: The Proclaimers, "I'm Gonna Be (500 Miles)"</cite>
+            </blockquote>
+
+            <p>
+                People invest their experiences online hoping to catch a break&mdash;a twisted inversion of the
+                parable of talents. The better question is not <em>why don't I make more money?</em> but rather
+                <em>why am I not trusted with more of our resources?</em>
+            </p>
+        </section>
+
+        <section>
+            <h2>V. What Christianity Provides: Reducing the Gradient</h2>
+
+            <p>
+                What the practice and postures of worship&mdash;specifically in the Abrahamic tradition, and in
+                my experience the God of Jacob&mdash;provides is a reduction in those transition probabilities.
+                The probability that <em>seeing</em> transitions to <em>desire</em> is reduced. The probability
+                that <em>desire</em> transitions to <em>taking</em> is reduced.
+            </p>
+
+            <p>
+                Meditating on the suffering of Jesus, on his relationship to a society that leveraged sound bites
+                (then as now) to further legitimacy&mdash;this is a practice of rewiring. The relationship between
+                a good father and son, that unconditional love, is the best representation of the mercy God extends
+                to those who miss the mark.
+            </p>
+
+            <blockquote>
+                Think of it like the Willie Nelson song: "I thought about you, Lord." That's the good man.
+                That's Jesus as the good man.
+                <cite>&mdash; Artistic reference: Willie Nelson</cite>
+            </blockquote>
+
+            <p>
+                This is not exclusive to Christianity. The Bhagavad Gita expresses it through duty and yoga.
+                The Quran through fidelity and pure faith. The Stoics through relinquishing control over others'
+                perception&mdash;understanding that fame, fortune, and power are neither good nor bad because they
+                happen to both good and bad people.
+            </p>
+        </section>
+
+        <section>
+            <h2>VI. The Result: Appreciation and Faith as the Medium</h2>
+
+            <div class="callout">
+                <p>
+                    <strong>Core thesis:</strong> Appreciation and faith are what make the separation of mind and soul
+                    <em>tolerable</em>. They reduce the gradient such that the conservative force drawing you back to
+                    the soul does not result in collapse. You can return restfully, comfortably&mdash;and choose
+                    <strong>fight</strong> (maintaining morale) rather than freeze or flight.
+                </p>
+            </div>
+
+            <p>
+                Different people from different parts of the world will need different symbols, cultural practices,
+                and networks of people to rewire themselves toward appreciation and faith. But it is appreciation and
+                faith that reduce the gradient, making the return to soul a gentle descent rather than a free fall.
+            </p>
+
+            <p>
+                When the question arises&mdash;<em>can I catch a break?</em>&mdash;it no longer carries the
+                force to dismantle. The mind approaches the soul without being annihilated by the approach.
+            </p>
+        </section>
+
+        <section>
+            <h2>VII. On Practical Possibility: Indigenous Language Preservation and Symbol Propagation</h2>
+
+            <p>
+                Ibrahim (the Egyptian researcher) proposes injecting indigenous hieroglyphic characters into 5G
+                signal architectures&mdash;that these symbols can articulate within the environment and propagate
+                waves that carry meaning. This is 100% possible as a technical matter. The probability that it can
+                actually <em>remedy</em> the separation? My intuition gives it approximately <strong>26.3%</strong>.
+            </p>
+
+            <p>
+                This intuition comes from the work behind <a href="https://lingualint.com">lingualint.com</a>&mdash;a
+                natural language processing tool that applies semantic algebra across 26 languages. Its mission is to
+                preserve indigenous languages: the concepts, subjects, and phenomenology embedded within them that
+                cannot be preserved any other way.
+            </p>
+
+            <h3>The LinguaLint Approach</h3>
+            <ol>
+                <li>Engage with <a href="https://schema.org">schema.org</a> to establish semantic primes drawn from indigenous languages</li>
+                <li>Build a linter that offers indigenous language expressions when a concept or phenomenology is articulated</li>
+                <li>Normalize indigenous terminology through consumer packaged goods branding&mdash;e.g., using an indigenous
+                    word for a specific lifecycle stage of a blueberry, much as tea uses green, red, yellow, black for its stages</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>VIII. MangoLint: Proof of Concept</h2>
+
+            <p>
+                <a href="https://github.com/jeffy893/mangolint">MangoLint</a> is a cultural linguistics linter
+                powered by AI that identifies natural ingredients in text and provides indigenous synonyms with rich
+                cultural context. Built with Amazon Bedrock (Claude 3 Sonnet) and Flask.
+            </p>
+
+            <p>
+                The system employs an <em>Indigenous Linguist and Brand Anthropologist</em> AI persona with expertise in
+                traditional ecological knowledge, ethnobotany, linguistic anthropology, and brand storytelling through
+                cultural authenticity.
+            </p>
+
+            <h3>How It Works</h3>
+            <ol>
+                <li>Input text is analyzed for natural ingredients (fruits, herbs, spices, plants, minerals)</li>
+                <li>For each ingredient, the system provides 3&ndash;5 indigenous/traditional synonyms from diverse global cultures
+                    (Native American, African, Asian, Latin American, Pacific Islander, Middle Eastern)</li>
+                <li>Each synonym includes: the term, language, culture, definition, and contextual nuances (ripeness stages,
+                    preparation methods, seasonal variations, medicinal vs. culinary uses)</li>
+                <li>An enhanced brand statement is generated that naturally integrates the indigenous terminology</li>
+            </ol>
+
+            <h3>Example Transformation</h3>
+            <div class="diagram">
+                <pre>
+    INPUT:  "Our pizza uses fresh mushrooms, peppers, and onions"
+
+    OUTPUT: "Our artisan pizza celebrates the earth's bounty with
+             fresh hongos (mushrooms), vibrant chiles (peppers),
+             and aromatic cebollas (onions) — a harmonious blend
+             of traditional ingredients crafted with cultural reverence."
+                </pre>
+                <p class="label">Figure 2. MangoLint transforming commodity descriptions into culturally-rooted brand language.</p>
+            </div>
+
+            <p>
+                The commercial thesis: consumer packaged goods companies could use indigenous terms to name
+                lifecycle-specific ingredients&mdash;just as tea has green, red, yellow, black for its stages of
+                curation and fermentation. A blueberry at its optimum harvest stage could carry the indigenous
+                name from the tribe that cultivated it for centuries. MangoLint provides the tooling to make this
+                normalization possible at scale.
+            </p>
+
+            <div class="callout">
+                <p>
+                    <strong>Repository:</strong> <a href="https://github.com/jeffy893/mangolint">github.com/jeffy893/mangolint</a><br>
+                    <strong>Stack:</strong> Python 3.10+, Flask, Amazon Bedrock (Claude 3 Sonnet), boto3<br>
+                    <strong>Status:</strong> Working proof of concept with real-time analysis, caching, and brand statement generation
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>IX. The Morale Agent Model: Boundary Conditions for Network Vitality</h2>
+
+            <p>
+                <a href="https://github.com/jeffy893/riskrunners/tree/dev/2.0/models/moraleAgentModel">The Morale Agent Model</a>
+                is an agent-based simulation that tests a hypothesis directly relevant to the gradient argument above:
+                communication networks&mdash;the kind Conway's Law describes&mdash;need active boundary conditions to stay alive.
+                Not rules that prevent transactions. <em>Boundaries that encourage them.</em>
+            </p>
+
+            <blockquote>
+                Dead networks aren't poor. They're demoralized.
+            </blockquote>
+
+            <h3>Model Parameters</h3>
+            <p>
+                100 agents, 300 rounds of bilateral transactions. Willingness to transact is driven by morale&mdash;a
+                function of relative wealth position. Wealthier agents carry a structural edge (information, leverage,
+                network position). Three scenarios are tested:
+            </p>
+
+            <h3>Results</h3>
+            <p>
+                The Gini coefficient measures inequality in a distribution on a scale from 0 to 1: 0 means
+                perfect equality (everyone holds the same amount), 1 means perfect inequality (one agent holds
+                everything). It is derived from the Lorenz curve&mdash;the gap between the actual cumulative
+                distribution of wealth and the line of perfect equality. For real-world context: Scandinavian
+                countries sit around 0.25&ndash;0.30, the United States around 0.39&ndash;0.41, and South Africa
+                around 0.63.
+            </p>
+            <div class="diagram">
+                <pre>
+    SCENARIO                        GINI    MORALE    TRANSACTIONS
+    ─────────────────────────────────────────────────────────────────
+    No Boundaries (Free Market)     0.88     0.52      21,908
+    Soft Boundaries (Redistribution)0.40     0.75      26,562
+    Active Boundaries (Incentives)  0.38     0.92      33,946
+                </pre>
+                <p class="label">Figure 3. Active boundaries produce 62% more transactions than the free market, with the highest morale and lowest inequality.</p>
+            </div>
+
+            <h3>The Three Active Boundary Mechanisms</h3>
+            <ol>
+                <li><strong>Participation Morale Floor</strong> &mdash; Agents who transacted last round cannot have morale
+                    drop below a threshold. The act of showing up is itself rewarded. This is the key mechanism: engagement
+                    is sustained by making engagement rewarding.</li>
+                <li><strong>Structural Advantage Dampening</strong> &mdash; The wealthy still win more often, but their
+                    edge compounds at 1/3 the rate. Competition stays; runaway dominance doesn't.</li>
+                <li><strong>Network Vitality Feedback</strong> &mdash; When transaction volume is high, everyone gets a
+                    morale boost. The system rewards its own health. Plus a cross-wealth <em>diversity dividend</em>:
+                    transacting across large wealth gaps earns both parties a bonus, weighted toward the poorer party.</li>
+            </ol>
+
+            <div class="callout">
+                <p>
+                    <strong>The Conway's Law insight:</strong> Your network's output mirrors its communication structure.
+                    But communication requires willingness. Willingness requires morale. Morale requires believing
+                    participation is worth it.
+                </p>
+            </div>
+
+            <h3>Three Principles</h3>
+            <ul>
+                <li>Reward participation itself, not just outcomes</li>
+                <li>Dampen structural advantage compounding&mdash;don't eliminate competition, prevent runaway dominance</li>
+                <li>Build feedback loops between network health and individual benefit</li>
+            </ul>
+
+            <p>
+                Boundary conditions aren't constraints on freedom. They're the infrastructure that keeps freedom meaningful.
+            </p>
+
+            <div class="callout">
+                <p>
+                    <strong>Repository:</strong> <a href="https://github.com/jeffy893/riskrunners/tree/dev/2.0/models/moraleAgentModel">github.com/jeffy893/riskrunners/.../moraleAgentModel</a><br>
+                    <strong>Stack:</strong> Python, NumPy, Matplotlib<br>
+                    <strong>More models:</strong> <a href="https://riskrunners.com">riskrunners.com</a>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>X. On the CDC Morale Model and Biotics</h2>
+
+            <p>
+                The CDC's morale model addresses the propagation of what we might call <em>biotics</em>&mdash;organisms
+                that persist in our systems due to the interplay of actives and passives. The aristocratic separation
+                from soil (syphilis running through the aristocracy as a systemic issue rather than merely an infectious
+                one) mirrors the broader pattern: separation from the ground produces conditions for pathology.
+            </p>
+
+            <p>
+                What we can guarantee: no one is statically inactive. People oscillate between active and passive states.
+                People can be maintained as active. The redistribution question is secondary to the boundary question&mdash;proper
+                boundaries that sustain transaction, morale, and fight.
+            </p>
+
+            <p>
+                The Morale Agent Model provides computational evidence for this claim: when boundaries are designed to
+                reward participation and dampen compounding advantage, agents <em>choose</em> to remain active. The
+                network stays alive not through coercion but through the felt experience that participation is worth it&mdash;which
+                is precisely what appreciation and faith provide at the individual spiritual level.
+            </p>
+        </section>
+
+        <section class="references">
+            <h2>References and Artistic Touchstones</h2>
+            <ul>
+                <li><strong>Zach Bush, MD</strong> &mdash; Joe Rogan Experience (2026). On biological systems, separation from nature, and existential dread.</li>
+                <li><strong>Pierre Bourdieu</strong> &mdash; <em>Distinction: A Social Critique of the Judgement of Taste</em> (1979). On leisure signaling and class expression.</li>
+                <li><strong>Immanuel Kant</strong> &mdash; <em>Critique of Judgment</em> (1790). On beauty disrupting priorities and the expression of taste.</li>
+                <li><strong>The Bhagavad Gita</strong> &mdash; On duty (dharma) and yoga as modes of reunion.</li>
+                <li><strong>The Quran</strong> &mdash; On fidelity and pure faith.</li>
+                <li><strong>Stoic Philosophy</strong> (Epictetus, Marcus Aurelius) &mdash; On relinquishing control over perception.</li>
+                <li><strong>Friedrich Nietzsche</strong> &mdash; The &Uuml;bermensch concept as pride-driven response to separation.</li>
+                <li><strong>Mary Shelley</strong> &mdash; <em>Frankenstein</em> (1818). The creature rejected by its creator as analog for nature's rejection.</li>
+                <li><strong>Jane Austen</strong> &mdash; On solvency, clothing cost, and social signaling in earlier economies.</li>
+                <li><strong>Willie Nelson</strong> &mdash; "I Thought About You, Lord." The good man's devotion.</li>
+                <li><strong>The Proclaimers</strong> &mdash; "I'm Gonna Be (500 Miles)." Quantifying the disruption of beauty on priorities.</li>
+                <li><strong>The Parable of Talents</strong> &mdash; Matthew 25:14&ndash;30. Stewardship and trust.</li>
+                <li><strong>LinguaLint</strong> &mdash; <a href="https://lingualint.com">lingualint.com</a>. NLP tool for indigenous language preservation across 26 languages.</li>
+                <li><strong>MangoLint</strong> &mdash; <a href="https://github.com/jeffy893/mangolint">github.com/jeffy893/mangolint</a>. Cultural linguistics linter &mdash; proof of concept for LLM-driven indigenous ingredient translation.</li>
+                <li><strong>Morale Agent Model</strong> &mdash; <a href="https://github.com/jeffy893/riskrunners/tree/dev/2.0/models/moraleAgentModel">github.com/jeffy893/riskrunners/.../moraleAgentModel</a>. Agent-based simulation of boundary conditions, morale, and network vitality.</li>
+                <li><strong>RiskRunners</strong> &mdash; <a href="https://riskrunners.com">riskrunners.com</a>. Agent-based simulation models.</li>
+                <li><strong>Schema.org</strong> &mdash; <a href="https://schema.org">schema.org</a>. Semantic web vocabulary standards.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>
+                Composed as a meditation &middot; July 26, 2026 &middot; Jefferson Richards<br>
+                For Chris Smith
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
