@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Class</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #181b22;
+    --panel-2: #1f232c;
+    --ink: #e8e6df;
+    --muted: #a4a196;
+    --line: #2c313c;
+    --accent: #c9a24b;
+    --accent-soft: rgba(201, 162, 75, 0.14);
+    --posture: #6fa8dc;
+    --hands: #93c47d;
+    --risk: #e0793f;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: radial-gradient(1200px 600px at 20% -10%, #1a1e27 0%, var(--bg) 60%);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+    padding: 0 0 80px;
+  }
+
+  header.hero {
+    padding: 56px 32px 28px;
+    max-width: 1180px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .eyebrow {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--accent);
+    margin: 0 0 12px;
+  }
+
+  h1 {
+    font-size: clamp(38px, 6vw, 68px);
+    margin: 0 0 10px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+  }
+
+  .subtitle {
+    color: var(--muted);
+    font-size: 18px;
+    max-width: 760px;
+    margin: 0;
+  }
+
+  main {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  .rationale {
+    margin: 34px 0 8px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 12px;
+    padding: 24px 28px;
+  }
+
+  .rationale h2 {
+    font-size: 20px;
+    margin: 0 0 12px;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+  }
+
+  .rationale p { margin: 0 0 14px; color: #d8d5cb; }
+  .rationale p:last-child { margin-bottom: 0; }
+
+  .section-label {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--muted);
+    margin: 44px 0 16px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 24px 22px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: var(--tone, var(--accent));
+  }
+
+  .card .num {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 13px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+
+  .card h3 {
+    font-size: 27px;
+    margin: 8px 0 4px;
+    color: var(--tone, var(--accent));
+    font-weight: 600;
+  }
+
+  .card .oneliner {
+    color: var(--muted);
+    font-size: 15px;
+    margin: 0 0 18px;
+    min-height: 44px;
+  }
+
+  .scale {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  .scale div {
+    flex: 1;
+    border-radius: 9px;
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .high {
+    background: rgba(147, 196, 125, 0.12);
+    border: 1px solid rgba(147, 196, 125, 0.3);
+  }
+  .low {
+    background: rgba(224, 121, 63, 0.12);
+    border: 1px solid rgba(224, 121, 63, 0.3);
+  }
+  .scale .tag {
+    display: block;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 10px;
+    margin-bottom: 4px;
+    opacity: 0.8;
+  }
+  .high .tag { color: var(--hands); }
+  .low .tag { color: var(--risk); }
+
+  .card p { margin: 0 0 12px; font-size: 15px; color: #d8d5cb; }
+
+  .supplement {
+    margin-top: auto;
+    padding-top: 16px;
+    border-top: 1px dashed var(--line);
+  }
+  .supplement .stag {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    font-size: 10px;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .supplement p { font-size: 14px; color: var(--muted); margin: 0; }
+
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 22px 0 0;
+  }
+  @media (max-width: 700px) { .pillars { grid-template-columns: 1fr; } }
+  .pillar {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    background: var(--panel-2);
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .pillar b { display: block; color: var(--ink); margin-bottom: 2px; }
+
+  .capstone {
+    margin-top: 40px;
+    background: linear-gradient(180deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--accent);
+    border-radius: 14px;
+    padding: 30px 30px 26px;
+  }
+  .capstone h2 {
+    font-size: 26px;
+    margin: 0 0 6px;
+    font-weight: 600;
+  }
+  .capstone .lede {
+    color: var(--accent);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 11px;
+    margin: 0 0 16px;
+  }
+  .capstone p { color: #d8d5cb; margin: 0 0 14px; }
+  .capstone p:last-child { margin-bottom: 0; }
+
+  footer {
+    max-width: 1180px;
+    margin: 40px auto 0;
+    padding: 24px 32px 0;
+    color: var(--muted);
+    font-size: 13px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    letter-spacing: 0.04em;
+    border-top: 1px solid var(--line);
+  }
+  footer p { margin: 0 0 6px; }
+  footer .sig { color: var(--ink); }
+  footer .sig strong { color: var(--accent); }
+  footer a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent-soft);
+  }
+  footer a:hover { border-bottom-color: var(--accent); }
+
+  em { color: var(--accent); font-style: italic; }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">A Personal Framework &middot; 2026-09-15</p>
+    <h1>Measures of Class</h1>
+    <p class="subtitle">Three pillars for reading character in public: <strong>posture</strong>, <strong>idle hands</strong>, and <strong>risk receptivity</strong>. A filter, a rite of passage into manhood, and, later in life, a lens read with more grace.</p>
+  </header>
+
+  <main>
+    <section class="rationale">
+      <h2>Why This Framework Exists</h2>
+      <p>This started as a practical filter. I use these three measures to recognize, quickly, whether a woman would be right for me &mdash; whether she carries herself as a classy woman. In practice the framework has ruled out the overwhelming majority, and that clarity has been useful.</p>
+      <p>It also served a second purpose: it helped secure my final differentiation into manhood, something I was paying close attention to around 27. I never wrote it down then. Now that I'm through that passage, I hold the same framework with more grace and mercy, because I better understand the human nature underneath the behaviors.</p>
+      <p>So when the examples below draw on women, hold the context: I originally built this to differentiate <em>toward</em> manhood &mdash; to name that when a man performs these low-class behaviors it lands harder, because he is failing to specialize into his proper role. There's a natural role split at work: <em>to have and to hold</em> versus <em>to be responsible and accountable</em>; a woman's love as <em>sufficient</em>, a man's love as <em>necessary</em>. Read as a whole, some behaviors are truer to a woman's nature &mdash; which is exactly why the same behaviors in a man read as especially low class.</p>
+    </section>
+
+    <p class="section-label">The Three Measures</p>
+
+    <div class="grid">
+      <!-- POSTURE -->
+      <article class="card" style="--tone: var(--posture);">
+        <span class="num">01</span>
+        <h3>Posture</h3>
+        <p class="oneliner">How you project your character and hold accountability for it.</p>
+        <div class="scale">
+          <div class="high"><span class="tag">High</span>Tall, shoulders back, neck straight, chin down, eyes level and aware.</div>
+          <div class="low"><span class="tag">Low</span>Hunched over, collapsed, or chin tilted up so you're literally looking down.</div>
+        </div>
+        <p>Posture is projection of character. Standing tall with shoulders back is a form of taking accountability for how you show up in the world.</p>
+        <p>The best image for it is Da Vinci's <em>Head of a Warrior (Profile of a Soldier)</em>: chin tucked into a double chin, helmet strap under the lip, straight and narrow, looking ahead. Chin down, shoulders back, neck vertical &mdash; not chin up with the eyes cast along the horizon, which is where "looking down" on others actually comes from.</p>
+        <div class="supplement">
+          <span class="stag">Supplement &middot; The Friendship Test</span>
+          <p>You can tell friends by posture, not by race. Friends carry themselves the same way. Height matters, but posture comes first: a short athlete and a tall athlete are friends and both stand tall &mdash; the taller one doesn't hunch down to match. Height comes second, because someone with good posture won't want a friend they must hunch toward.</p>
+        </div>
+      </article>
+
+      <!-- IDLE HANDS -->
+      <article class="card" style="--tone: var(--hands);">
+        <span class="num">02</span>
+        <h3>Idle Hands</h3>
+        <p class="oneliner">Whether your hands stay available to help, or stay occupied and handled.</p>
+        <div class="scale">
+          <div class="high"><span class="tag">High</span>Available hands &mdash; free to move a chair, to lend, to be responsible.</div>
+          <div class="low"><span class="tag">Low</span>Hands filled: a Starbucks cup in one, a phone in the other, no bag.</div>
+        </div>
+        <p>High class keeps hands available. Low class keeps them idle &mdash; filled with things so they can't be used. Available hands can be responsible: they can help, move something, carry a load. Occupied hands can't, and a person with idle hands ends up being handled rather than helping.</p>
+        <p>Stack this with posture and it compounds. Hunched over a phone with both hands full is two strikes &mdash; low class in two directions at once.</p>
+        <div class="supplement">
+          <span class="stag">Supplement &middot; The Grace Note</span>
+          <p>Women want to hold things &mdash; <em>habendum et tenendum</em>, to have and to hold. Holding a purse is nature, and I don't count it against her. What I read is the cup-and-phone combination that leaves the hands with nothing to give.</p>
+        </div>
+      </article>
+
+      <!-- RISK RECEPTIVITY -->
+      <article class="card" style="--tone: var(--risk);">
+        <span class="num">03</span>
+        <h3>Risk Receptivity</h3>
+        <p class="oneliner">Ears and eyes open, reciprocal and responsive to your environment.</p>
+        <div class="scale">
+          <div class="high"><span class="tag">High</span>Witnessing your surroundings; aware of risk; present where you are.</div>
+          <div class="low"><span class="tag">Low</span>Tuned out; belonging felt so completely that attention switches off.</div>
+        </div>
+        <p>The catch-all and the most multivariate of the three. In public there is always risk around you; being a witness &mdash; receptive, reciprocal, responsive &mdash; is higher class. Tuning out your environment is lower class.</p>
+        <p>Example: a woman walks into a bar that turns out to be a dangerous dive. If her felt sense that she <em>infinitely belongs</em> overrides her ability to pay attention, that's the failure &mdash; even with good posture and free hands. In truth she doesn't belong there where dignity, self-respect, and safety are concerned, though the room will treat her as if she does.</p>
+        <div class="supplement">
+          <span class="stag">Supplement &middot; Belonging, Sufficiency &amp; the Panopticon</span>
+          <p>Where does she really belong? Watch the service-industry woman: expertly neutral with a customer because her love is <em>sufficient</em> and she gives it without taking accountability for it. But when she slips to the corner by the bus boys and gets on her phone &mdash; that network is where her real, sufficient love goes. Women often seem to need observability to do their work, like a Panopticon: the photos, the looking back, the handheld mirror. In the hyperbolic king-and-queen image, the man looks outward at his environment (risk receptive) while the queen looks at herself in a hand mirror. A <em>discerning</em> woman &mdash; a blessing to her husband &mdash; is one whose attention isn't overtaken by belonging.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="pillars">
+      <div class="pillar"><b>Posture</b> project &amp; own your character</div>
+      <div class="pillar"><b>Idle Hands</b> stay available to help</div>
+      <div class="pillar"><b>Risk Receptivity</b> witness your world</div>
+    </div>
+
+    <!-- CAPSTONE -->
+    <section class="capstone">
+      <p class="lede">Capstone &middot; The Roof Over the Three Pillars</p>
+      <h2>How You Wait in Line</h2>
+      <p>Phones have hijacked all of this &mdash; which is part of why I built the framework. Man or woman, someone hunched over a phone, hands full, typing away, blind to their environment, is fully low class on every measure at once. It's technology, dopaminergic feedback loops, and the loss of a shame society that used to correct it. That's why cafes, bars, and every line are now full of it.</p>
+      <p>The three pillars support one roof: <strong>how you wait in line</strong>. So much of life is waiting in lines &mdash; waiting is suffering, it's patience, and to be patient is to be a patient. The ultimate good, after Viktor Frankl's <em>Man's Search for Meaning</em>, is to suffer <em>gracefully</em>. I heard that in French culture, people in line turn and talk to strangers. That's the point: suffering gracefully means engaging the people around you, loving on them however comes naturally, and by doing so becoming a living demonstration of how to suffer well &mdash; which alleviates their suffering too.</p>
+      <p>The person hunched over their phone, not receptive to their environment, is the least likely to engage anyone in line. That is exactly why these are low-class behaviors. How you wait in line is the measure &mdash; and that is class.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="fw-line">Personal framework &middot; documented 2026-09-15 &middot; read with grace and mercy.</p>
+    <p class="sig">A <strong>Perry Dime Publications</strong> work &middot; <a href="https://perrydime.com" target="_blank" rel="noopener noreferrer">perrydime.com</a></p>
+  </footer>
+</body>
+</html>

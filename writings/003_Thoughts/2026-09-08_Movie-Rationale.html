@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The Panel and the Lens — A Movie Rationale</title>
+<style>
+  @page {
+    size: A4;
+    margin: 22mm 20mm 24mm 20mm;
+    @top-center {
+      content: "THE PANEL AND THE LENS";
+      font-family: "Courier New", monospace;
+      font-size: 8pt;
+      letter-spacing: 3px;
+      color: #6b7a86;
+    }
+    @bottom-center {
+      content: "TRANSMISSION " counter(page) " / " counter(pages);
+      font-family: "Courier New", monospace;
+      font-size: 8pt;
+      letter-spacing: 2px;
+      color: #6b7a86;
+    }
+  }
+
+  :root {
+    --ink: #12181d;
+    --muted: #5c6b76;
+    --phosphor: #2f7d68;
+    --amber: #b06a1a;
+    --line: #d9d2c4;
+    --paper: #f4f0e6;
+    --panel: #1b2228;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    color: var(--ink);
+    background: var(--paper);
+    font-size: 11.5pt;
+    line-height: 1.62;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  /* ---------- COVER ---------- */
+  .cover {
+    text-align: center;
+    padding: 6mm 0 0 0;
+    page-break-after: always;
+  }
+
+  .scanlines {
+    position: relative;
+    border: 1.5px solid var(--panel);
+    background: var(--panel);
+    color: var(--paper);
+    padding: 26mm 14mm;
+    margin-bottom: 12mm;
+    border-radius: 6px;
+  }
+
+  .scanlines::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.04) 0px,
+      rgba(255,255,255,0.04) 1px,
+      rgba(0,0,0,0.10) 2px,
+      rgba(0,0,0,0.10) 3px
+    );
+    border-radius: 6px;
+    pointer-events: none;
+  }
+
+  .rec {
+    font-family: "Courier New", monospace;
+    font-size: 9pt;
+    letter-spacing: 4px;
+    color: #d64545;
+    display: block;
+    margin-bottom: 10mm;
+  }
+  .rec::before {
+    content: "● ";
+    color: #d64545;
+  }
+
+  .cover h1 {
+    font-size: 30pt;
+    line-height: 1.1;
+    margin: 0 0 6mm 0;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+
+  .cover .sub {
+    font-family: "Courier New", monospace;
+    font-size: 10pt;
+    letter-spacing: 2px;
+    color: #a7b4bd;
+    text-transform: uppercase;
+  }
+
+  .cover .meta {
+    margin-top: 14mm;
+    font-family: "Courier New", monospace;
+    font-size: 9.5pt;
+    letter-spacing: 1px;
+    color: var(--muted);
+    line-height: 1.9;
+  }
+
+  .cover .meta strong { color: var(--ink); }
+
+  .lineage {
+    margin: 12mm auto 0 auto;
+    max-width: 118mm;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 10.5pt;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  /* ---------- SECTIONS ---------- */
+  .movement {
+    margin-top: 10mm;
+    page-break-inside: auto;
+  }
+
+  h2 {
+    font-family: "Courier New", monospace;
+    font-size: 12pt;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--panel);
+    border-bottom: 2px solid var(--panel);
+    padding-bottom: 3px;
+    margin: 0 0 5mm 0;
+    text-align: left;
+    page-break-after: avoid;
+  }
+
+  h2 .num {
+    color: var(--phosphor);
+    margin-right: 8px;
+  }
+
+  p { margin: 0 0 4.2mm 0; }
+
+  .lead {
+    font-size: 12.5pt;
+    color: var(--ink);
+  }
+  .dropcap {
+    font-size: 300%;
+    line-height: 0.9;
+    padding: 0 6px 0 0;
+    color: var(--amber);
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    vertical-align: -6px;
+  }
+
+  blockquote {
+    margin: 5mm 0 5mm 0;
+    padding: 3mm 6mm;
+    border-left: 3px solid var(--phosphor);
+    background: rgba(47,125,104,0.07);
+    font-style: italic;
+    color: #2b3940;
+    text-align: left;
+  }
+
+  .aside {
+    font-family: "Courier New", monospace;
+    font-size: 9.5pt;
+    line-height: 1.55;
+    color: var(--muted);
+    background: rgba(176,106,26,0.08);
+    border: 1px dashed rgba(176,106,26,0.5);
+    padding: 4mm 5mm;
+    margin: 5mm 0;
+    text-align: left;
+  }
+  .aside .tag {
+    display: block;
+    color: var(--amber);
+    letter-spacing: 2px;
+    font-size: 8.5pt;
+    margin-bottom: 2mm;
+  }
+
+  .formula {
+    font-family: "Courier New", monospace;
+    text-align: center;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    margin: 4mm 0;
+    color: var(--panel);
+  }
+
+  .closing {
+    margin-top: 12mm;
+    border-top: 1px solid var(--line);
+    padding-top: 6mm;
+    font-style: italic;
+    color: var(--muted);
+    text-align: center;
+  }
+
+  .sign {
+    font-family: "Courier New", monospace;
+    letter-spacing: 2px;
+    font-size: 9pt;
+    color: var(--muted);
+    margin-top: 6mm;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div class="scanlines">
+    <span class="rec">REC — LIVE FEED</span>
+    <h1>The Panel<br>and the Lens</h1>
+    <div class="sub">A Movie Rationale</div>
+  </div>
+
+  <div class="meta">
+    <div><strong>Recorded:</strong> 8 September 2026 · 18:14</div>
+    <div><strong>Location:</strong> A hospital waiting room</div>
+    <div><strong>Signal source:</strong> One unnamed channel, one thriller</div>
+  </div>
+
+  <p class="lineage">
+    Field notes on television, simulation, and the coldness behind the panel —
+    from the great-grandson of Frank McCall Hursley, who wrote the soap opera
+    <em>General Hospital</em>.
+  </p>
+</section>
+
+<section class="movement">
+  <h2><span class="num">01</span> A Hospital, A Waiting Room, A Screen</h2>
+  <p class="lead">
+    <span class="dropcap">I</span>t was September 8, 2026, at 18:14. I was sitting in a hospital, waiting maybe thirty
+    minutes, and there was a movie on. Some channel. And the thing is, I basically haven't
+    watched television in so long. When I was younger I used to watch the Sci-Fi Channel,
+    and that was a tight ship — not to be critical, but a lot of it was B-movies. Not even
+    low budget, really; they had complex CGI, complex stories. I want to set the context
+    for what I'm about to talk about.
+  </p>
+</section>
+
+<section class="movement">
+  <h2><span class="num">02</span> The Cabin, The Totems, The People Behind the Panels</h2>
+  <p>
+    Take the movie <em>Cabin in the Woods</em>. The young adults are set up in a scenario
+    with different totems in the house. Depending on which one they knock over — breaking a
+    doll, say — an elevator brings up a monster into their world, and it kills them. As the
+    film goes on, it breaks the fourth wall. They're being monitored. There are people
+    making a movie out of the deaths of these young adults, working from archetypes: the
+    stoner, the ditzy hot girl, the smart hot girl, the jock, the nerd. Those archetypes
+    have to die, once a year, or the gods are released to wreak havoc on the world.
+  </p>
+  <p>
+    I didn't see <em>that</em> film in the hospital. I bring it up because it taps the most
+    beautiful reflection of modern television I know. What I can't unsee are the people
+    behind the panels — the ones moving the cameras, catching the scenes of the kids dying,
+    cold and apathetic about it, just trying to assemble a perfect feature film from whatever
+    shots they have available. That perfect coldness. I've never been able to get it out of
+    my mind.
+  </p>
+  <blockquote>
+    The people behind the panels have no emotion about the killing. They are generating a
+    movie from the scenes available to them. That is the image I can't unsee.
+  </blockquote>
+</section>
+
+<section class="movement">
+  <h2><span class="num">03</span> The Inherited Gene</h2>
+  <p>
+    This is coming from the great-grandson of Frank McCall Hursley, who wrote the soap opera
+    <em>General Hospital</em>. I definitely got
+    the writing-and-drama gene from that side — from my grandpa, Frank McCall Hursley Jr.
+    Of anyone in the family, I'm the writer. Not from my dad's side; this is my mom's side.
+    Nobody else on that side writes. I've made a habit of it for a long time, and I like to
+    think about behavioral economics and drama. When dramatic things happen in my life, I
+    look at them from an extra-social perspective. That movie touched something in me I
+    can't undo.
+  </p>
+</section>
+
+<section class="movement">
+  <h2><span class="num">04</span> Soft Lighting, Fused Genres, Too Much Information</h2>
+  <p>
+    Why I bring up <em>General Hospital</em>: that soft lighting, the Hollywood way of
+    filming soap operas, fused with sci-fi and then informed by action movies — that's what
+    you get now on the average channel. And here's the thing —
+    <strong>I haven't watched TV in any major way since I was sixteen, and I'm
+    thirty-three now.</strong> I don't have one in my house. I think about how much
+    information would come at me if I turned one on.
+  </p>
+  <div class="aside">
+    <span class="tag">MARGINAL NOTE — THE YOUTH PASTOR</span>
+    A youth pastor once joked that if someone from two thousand years ago came to our day
+    and turned on a television or a computer, the sheer volume of information their mind
+    would have to process would kill them. He was being hyperbolic, joking in a small group.
+    But I completely agree. Just imagining flipping the channels makes me nervous. I've gone
+    far into being able to sit alone in a room, pray, meditate, relax, explore my mind — and
+    I want to pat myself on the back a little for separating from all of it.
+  </div>
+</section>
+
+<section class="movement">
+  <h2><span class="num">05</span> The Realness of the Faces</h2>
+  <p>
+    So I'm in the hospital looking at the TV, and it's a film — a low-budget one by today's
+    standards, though what we call low budget now used to be high budget. A mix of action,
+    soap opera, and thriller. Because I hadn't seen a movie on a television in so long, I
+    looked into the faces of these people and it was so real. Their emotions, the situation
+    they were facing — so real. In the back of my mind I kept rationalizing: this is just a
+    movie, these are paid actors. But the fear, the surprise — I started to sense that the
+    people engineering the events were putting the actors through genuinely stressful
+    situations, manifesting real reactions.
+  </p>
+</section>
+
+<section class="movement">
+  <h2><span class="num">06</span> The Building Where Every Floor Is a Set</h2>
+  <p>
+    I began building a story. What if there's a Hollywood building where every floor is a
+    different set? All these films, like the one I was watching, set in some paneled room —
+    almost a war room. It's like it all started with <em>Star Trek</em>: that open bridge,
+    the captain's helm as a screen instead of a wheel, people turning dials. In the film,
+    they were hiding behind one of the panels while some killer closed in.
+  </p>
+  <p>
+    And I noticed there were almost no commercials — or maybe, because I was absorbing so
+    much information, time was moving slowly for me. I entertained the thought: what if
+    many sets of people were put through these thriller scenarios, and not everyone
+    survives? Almost like <em>Saw</em> — people hunted down, captured, dropped into the
+    scenario. What if Hollywood was hunting people down, running them through extremely
+    stressful gauntlets, sapping them dry of emotion, and the ones who survive are the ones
+    you later look up online?
+  </p>
+  <blockquote>
+    You see the actress on the red carpet, star-struck into the camera, poised in a nice
+    dress. That photograph is our modern statue — the immortalized image of someone who
+    made it to the end of the gauntlet and kept a right head about themselves.
+  </blockquote>
+</section>
+
+<section class="movement">
+  <h2><span class="num">07</span> The Lens, The Black Hole, The Missing Eyes</h2>
+  <p>
+    Then I think about the camera, the lens — that black lens a podcaster looks into. They
+    aren't talking to you; they're looking into a black hole with an odd eyeball in it. What
+    do you have to have inside you to look into that eyeball and produce real reactions and
+    emotion when nobody is looking back? All the context they have is feedback gathered
+    elsewhere — from the internet, from comedy shows, from being in person, any way of
+    getting real feedback from people.
+  </p>
+</section>
+
+<section class="movement">
+  <h2><span class="num">08</span> Organ Resonation and the Illusion of Followers</h2>
+  <p>
+    There's a disconnect between having followers in reality and having them online. A dog
+    is sensitive to his owner's organs — any owner knows when he's upset. A shepherd of a
+    hundred sheep is known by all of them. There's an organ resonation going on.
+  </p>
+  <div class="aside">
+    <span class="tag">SOURCE — ANATOMY OF THE SPIRIT</span>
+    Caroline Myss's <em>Anatomy of the Spirit</em> talks about the organs of the body
+    holding onto emotions. A neurosurgeon I worked with in 11th grade gave me that book,
+    said it was real, and talked about the anatomy of the spirit. The book describes people
+    like Mother Teresa and Gandhi physically evolving by not holding onto anger, lust,
+    jealousy — their organs evolved.
+  </div>
+  <p>
+    So people who think they have followers but get no organ resonation develop a deep
+    dissonance, because they don't actually have followers. A king atop an Aztec pyramid
+    with the crowd worshipping the sacrifice feels organ resonation. A rock star feels the
+    crowd's energy in his organs. Movie stars, modern podcasters — especially the ones just
+    talking into a camera, the Twitch streamers — don't get that in-reality resonation, and
+    it's a critical part.
+  </p>
+</section>
+
+<section class="movement">
+  <h2><span class="num">09</span> A Tangent That Matters: The Spectrum of the Organs</h2>
+  <p>
+    Each organ has a specific frequency — spectrums, like 98.3, 98.4 on the FM dial. At some
+    point the spectrum markets that exist for radio might exist for organs. I imagine a
+    device you bring to a rave that synchronizes everyone's liver, or pineal gland, jumping
+    onto that spectrum. We can already buy FM spectrums — the real question is whether we
+    can buy organ spectrums.
+  </p>
+  <blockquote>
+    Shouldn't there be regulation so that even the government — the people with a monopoly
+    on violence — can't own the spectrums of our organs? We should be free to resonate our
+    organs how we want.
+  </blockquote>
+</section>
+
+<section class="movement">
+  <h2><span class="num">10</span> Acting, Cues, and the Roles We Already Play</h2>
+  <p>
+    Back to the hospital, watching this movie, so real. It had been even longer since I'd
+    watched <em>television</em> television — flipping the channel — than since I'd seen a
+    film. I played video games back then too, but once I got a car and could drive myself to
+    go hang out with girls, I was done. Done with television, done with video games.
+  </p>
+  <p>
+    In that building where every floor is a set, there's the relationship between the set
+    engineers — getting smarter, better at evoking emotion and reaction — and the actors,
+    who've memorized their lines but stick to what the moment calls for, taking cues from
+    what others say before them.
+  </p>
+  <p>
+    And there's a component of all this that is very much like reality: we play many roles,
+    wear many hats, and communicate in sequential, almost procedural ways. We have our own
+    moments of acting. As these settings get better at evoking the real thing, how much do
+    the actors start to blend into actual situations — like the cabin in the woods?
+  </p>
+</section>
+
+<section class="movement">
+  <h2><span class="num">11</span> Rick and Morty, and the Light That Goes Somewhere</h2>
+  <p>
+    To bring it full circle, one more pop reference. <em>Rick and Morty</em> had an episode
+    about intergalactic television — cameras everywhere across the galaxy, so our day-to-day
+    lives, just living and acting and speaking, send light somewhere. The light is always
+    captured, if not here then over there.
+  </p>
+  <p>
+    I'm not saying there are hidden cameras everywhere like in the cabin. I'm saying there's
+    no loss — the light goes somewhere. It's very possible that at certain moments in your
+    life you are in someone else's TV set. Not literally someone behind a monitor watching
+    you.
+  </p>
+  <div class="aside">
+    <span class="tag">EARTHLY FRAME — RESPONSIBILITY</span>
+    In that earthly context, what we do is more like a file: certain actions and trigger
+    points and thresholds get surpassed, certain language and behaviors fill up, and you
+    reach another risk level. It loops back to insurance as governance, and the equation:
+    <div class="formula">R = I / N</div>
+    Responsibility equals Intention divided by Negligence — man-made insurance, man-made
+    economics, plus surveillance, plus self-reporting traceable online. But I'm not really
+    talking about the man-made things. I mean the galactic sense that <em>Rick and Morty</em>
+    brings out: day-to-day life being seen.
+  </div>
+</section>
+
+<section class="movement">
+  <h2><span class="num">12</span> The Sin of Omission Between the Scenes</h2>
+  <p>
+    One more key component: any time the scene changes — any angle change, not just a full
+    cut — you don't know how much time passed. We impose continuity onto it. There's a
+    complete sin of omission when we watch: anything could have happened between the moments
+    the angle changed. The person could have gone to the bathroom, smoked a cigarette,
+    eaten, gone home, slept, come back. We recognize countenance and temperament scene by
+    scene, but we take that continuity for granted.
+  </p>
+</section>
+
+<section class="movement">
+  <h2><span class="num">13</span> How Do You Know For Sure?</h2>
+  <p>
+    Some of these films are so realistic that I get the sense — how do you know for sure
+    these aren't people in real-life scenarios, and we're just apathetically consuming it?
+    I was on fire. My dendrites, my attention completely on fire, watching this thriller,
+    astonished by the acting. The one thing that made me think it was low budget was that
+    the actors didn't seem that professional — as if the engineers were the professionals,
+    making good actors out of anyone because the scenarios were so real to them.
+  </p>
+  <p>
+    So that's a little bit of an exposé, if you will. The state of television and movies,
+    from the great-grandson of Frank McCall Hursley — the writer of the soap opera
+    <em>General Hospital</em> — and my honest perspective on the state of things.
+  </p>
+</section>
+
+<section class="movement">
+  <h2><span class="num">14</span> But Why Do We Flood Our Minds?</h2>
+  <p>
+    Less what I'm trying to say, but important: why do we put ourselves through this much
+    information — not just the actors, but us, the viewers? Why flood our minds with all
+    these simulated scenarios? Simulation is probably the best word. It taps some of my
+    dreams about places like Las Vegas, and it makes me ask: why don't we consider ourselves
+    to be experiencing a vantage point on seriously intense situations?
+  </p>
+  <p>
+    The whole thing I'm trying to stay away from is asking whether it's realistic. I think
+    we've gone too far into rationalizing that it's <em>not</em>. For all intents and
+    purposes, this is very real. Everything the actors go through, everything we go through
+    consuming the information — it's burning out our ability to empathize with the real
+    world if it actually happens, our ability to hold our spirit, our emotions, our logic.
+    Just because we don't meet these things daily doesn't mean we could handle them if we
+    did, and it doesn't mean we shouldn't care for the people putting themselves through
+    these scenarios.
+  </p>
+
+  <div class="closing">
+    <p>
+      That said, everyone in these movies is a consenting adult, as far as I know. So...
+    </p>
+  </div>
+
+  <div class="sign">
+    — END OF TRANSMISSION —
+  </div>
+</section>
+
+</body>
+</html>
